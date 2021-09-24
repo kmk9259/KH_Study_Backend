@@ -1,0 +1,17 @@
+127.0.0.1 - - [20/Sep/2021:00:10:56 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:10:57 +0900] "GET /semiProject/ HTTP/1.1" 200 19863
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:10:57 +0900] "GET /semiProject/resources/css/style.css HTTP/1.1" 200 71904
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:10:57 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:10:58 +0900] "POST /semiProject/topList HTTP/1.1" 200 1027
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:10:59 +0900] "GET /semiProject/views/member/login.jsp HTTP/1.1" 200 19649
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:10:59 +0900] "GET /semiProject/resources/css/myInfo.css HTTP/1.1" 200 363542
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:11:00 +0900] "POST /semiProject/login.me HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:11:00 +0900] "GET /semiProject HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:11:00 +0900] "GET /semiProject/ HTTP/1.1" 200 19872
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:11:00 +0900] "POST /semiProject/topList HTTP/1.1" 200 1027
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:11:02 +0900] "GET /semiProject/adminPage.ad HTTP/1.1" 200 13763
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:11:05 +0900] "GET /semiProject/list.pl HTTP/1.1" 200 31754
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:11:05 +0900] "GET /semiProject/resources/place_upFiles/2021-09-18-2063486.jpg HTTP/1.1" 200 61189
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:11:07 +0900] "GET /semiProject/insertForm.pl HTTP/1.1" 200 19346
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:12:56 +0900] "GET /semiProject/deleteP.pl HTTP/1.1" 200 17785
+0:0:0:0:0:0:0:1 - - [20/Sep/2021:00:13:00 +0900] "POST /semiProject/Pdelete.pl HTTP/1.1" 200 1396

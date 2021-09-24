@@ -1,0 +1,51 @@
+package com.kh.test.model;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Date;
+import java.util.List;
+
+public class TestDao {
+	public List<TEST> selectList(){
+		String driver = "oracle.jdbc.driver.OracleDriver";
+		String url = "jdbc:oracle:thin:@192.168.10.3:1521:xe";
+		String userid = "kh";
+		String passwd = "kh";
+		
+		Connection con = null; 
+		Statement stmt = null; 
+		ResultSet rs = null;
+
+		try {
+			Class.forName(driver);
+			con = DriverManager.getConnection(url, userid, passwd);
+			String sql = "SELECT * FROM TEST"; 
+			stmt = con.createStatement(); 
+			rs = stmt.executeQuery(sql);
+
+			while (rs.next()) 
+			{ 
+				TEST t = new TEST();
+				t.setSEQ(rs.getInt("SEQ"));
+				t.setWRITER(rs.getString("WRITER"));
+				t.setTITLE(rs.getString("TITLE"));
+				t.setCONTENT(rs.getString("CONTENT"));
+				t.setREGDATE(rs.getDate("REGDATE"));
+			}
+			
+
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+127.0.0.1 - - [24/Sep/2021:18:22:26 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [24/Sep/2021:18:22:26 +0900] "GET /servletProject/index.html HTTP/1.1" 200 6324
+0:0:0:0:0:0:0:1 - - [24/Sep/2021:18:22:26 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [24/Sep/2021:18:22:30 +0900] "GET /servletProject/test.do? HTTP/1.1" 200 26
+0:0:0:0:0:0:0:1 - - [24/Sep/2021:18:22:32 +0900] "GET /servletProject/test2? HTTP/1.1" 200 26
+0:0:0:0:0:0:0:1 - - [24/Sep/2021:18:22:34 +0900] "GET /servletProject/views/testServlet1.html HTTP/1.1" 200 3532
+0:0:0:0:0:0:0:1 - - [24/Sep/2021:18:22:45 +0900] "GET /servletProject/views/testServlet2.html HTTP/1.1" 200 126
+0:0:0:0:0:0:0:1 - - [24/Sep/2021:18:22:50 +0900] "GET /servletProject/views/testServlet3.html HTTP/1.1" 200 126
